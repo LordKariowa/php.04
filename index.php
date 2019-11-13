@@ -16,10 +16,10 @@
                 <input type="password" name="senha" class="form-control">
                 <input type="submit" value="Entrar" class="btn btn-success mt-2">
             </form><br>
-            <?php?
-            if)isset($_GET["msg"]))
-                echo $_GET["msg"];        
-    ?>
+            <?php
+           if(isset($_GET["msg"]))
+                echo $_GET["msg"];
+           ?>
         </div>
     </div>
 </body>
